@@ -2,11 +2,29 @@
 <html lang="es">
   <head>
     <meta charset="utf-8">
-    <title>Estandar</title>
+    <title>Twitter Réplica básica</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
   </head>
   <body>
-
+    <section class="container">
+      <h1 class="text-center">Twitter</h1>
+      <div class="row page-header">
+        <p>Escribe lo que quieras en 140 caracteres!</p>
+        <form class="" action="index.html" method="post">
+          <textarea rows="5" cols="50" ></textarea>
+          <span id="caracteres">0</span>
+          <span>/140</span>
+          <span>De:</span>
+          <input type="text" id="persona">
+          <button class="submit" id="botonEnviar">Enviar</button>
+        </form>
+      </div>
+      <div class="row">
+        <h2>TimeLine</h2>
+        <div class="" id="tweets">
+        </div>
+      </div>
+    </section>
   </body>
 </html>
