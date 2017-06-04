@@ -10,14 +10,19 @@
     <section class="container">
       <h1 class="text-center">Twitter</h1>
       <div class="row page-header">
-        <p>Escribe lo que quieras en 140 caracteres!</p>
-        <form class="" action="index.html" method="post">
-          <textarea rows="5" cols="50" ></textarea>
-          <span id="caracteres">0</span>
-          <span>/140</span>
-          <span>De:</span>
-          <input type="text" id="persona">
-          <button class="submit" id="botonEnviar">Enviar</button>
+        <form id="formulario">
+          <div class="form-group col-sm-9">
+            <textarea rows="4" cols="55" id="mensaje" placeholder="Escribe tu tweet"></textarea>
+            <span id="caracteres">0</span>
+            <span>/140</span>
+          </div>
+          <div class="form-group col-sm-4">
+            <label for="usuario">De:</label>
+            <input type="email" class="form-control " id="usuario" placeholder="@usuario">
+          </div>
+          <div class="form-group col-sm-12">
+            <button type="submit" class="btn btn-default" id="enviarTweet" disabled="">Enviar Tweet</button>
+          </div>
         </form>
       </div>
       <div class="row">
@@ -26,5 +31,7 @@
         </div>
       </div>
     </section>
+    <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/app.js"></script>
   </body>
 </html>
