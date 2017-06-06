@@ -1,0 +1,30 @@
+body {
+  background-color: #D492F0;
+}
+
+.centrado {
+  text-align: center;
+}
+
+.textoAmarillo {
+  color: #FFFF00;
+}
+
+.morado {
+  background-color: #9628BD;
+}
+
+.botonBorrarTweet {
+  display: block;
+  color: black;
+  margin-top: 2%;
+}
+
+.imagenPerfil {
+  width: 75%;
+  border-radius: 100%;
+}
+
+.padding-top {
+  padding-top: 1%;
+}

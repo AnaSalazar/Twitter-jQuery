@@ -15,9 +15,9 @@ var agregarTweet = function (e) {
   var $mostrarUsuario = $("#usuario").val();
   var $crearTweet = $("#enviarTweet");
 
-  var $contenedorTweet = $("<article />", { "class": "jumbotron" });
+  var $contenedorTweet = $("<article />", { "class": "jumbotron morado textoAmarillo"});
   var $tweetMostrado = $("<p />");
-  var $botonBorrarTweet = $("<button />", {"type": "button", "text": "borrarTweet",});
+  var $botonBorrarTweet = $("<button />", {"type": "button", "text": "Borrar Tweet", "class": "botonBorrarTweet btn-warning"});
 
   $botonBorrarTweet.click(borrarTweet);
 
